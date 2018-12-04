@@ -1,0 +1,107 @@
+
+@media only screen and (max-width: 1300px){
+	.wrapper { max-width: 100%!important; padding: 0px 25px;}
+
+}
+
+@media only screen and (max-width: 1200px){
+	/*=======Section Padding==========*/
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map { padding: 40px 0px!important;}
+
+	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 40px!important;}
+
+	.home .sec-8 { padding: 60px 0px 40px!important;}
+	/*=======End Of Section Padding==========*/
+
+	
+
+
+	.home .sec-1 .text-hldr h3 { margin-bottom: 20px!important;}
+	.home .sec-6 .hldr > h3 { margin-bottom: 30px!important;}
+
+
+	.home .sec-2 .text-hldr p, .home .sec-4 .hldr p, .home .sec-5 .hldr p, .home .sec-7 .hldr .loc-box p { margin-bottom: 10px!important;}
+	.home .sec-2 .text-hldr p:last-of-type, .home .sec-4 .hldr p:last-of-type, .home .sec-5 .hldr p:last-of-type { margin-bottom: 0px!important;}
+}
+
+
+@media only screen and (max-width: 999px){
+
+	.home .sec-8 { padding: 40px 0px 40px!important;}
+
+
+	.home .sec-6 .hldr .list-hldr > ul > li:first-child { width: 100%!important; padding-right: 0px!important; margin-bottom: 20px;}
+	.home .sec-6 .hldr .list-hldr > ul > li:last-child { width: 100%!important; padding-left: 0px!important; }
+
+	.home .sec-8 .hldr > ul > li:first-child { width: 100%!important; padding-right: 0px!important; margin-bottom: 20px;}
+	.home .sec-8 .hldr > ul > li:last-child { width: 100%!important; padding-left: 0px!important;}
+	.home .sec-8 .hldr > ul > li > h3 { margin-bottom: 20px!important;}
+
+	footer article { max-width: 100%!important; padding: 0px 20px!important;}
+	footer { padding: 25px 0px!important;}
+	footer article > ul { justify-content: center!important;}
+	footer article > ul li h4 { font-size: 18px!important; letter-spacing: 0px!important;}
+
+}
+
+@media only screen and (max-width: 800px){
+
+
+
+
+	.home .sec-1 .text-hldr h3, .title_ { font-size: 25px!important; line-height: 33px!important; letter-spacing: 0px!important;}
+	.home .list-nav ul li a {  font-size: 17px!important;}
+	.wrapper { padding: 0px 20px!important;}
+
+
+
+}
+
+
+
+/*MOBILE RESPONSIVE*/
+
+
+@media only screen and (max-width: 600px){
+	/*=======Section Padding==========*/
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map { padding: 30px 0px!important;}
+
+	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 30px!important;}
+	
+	.home .sec-8 { padding: 30px 0px!important;}
+	/*=======End Of Section Padding==========*/
+
+
+	.home .sec-7 .hldr .larger-map a { padding: 10px 15px!important;}
+
+	.home .sec-1 .text-hldr h3, .home .sec-2 .text-hldr h3, .home .sec-3 .hldr h3, .home .sec-4 .hldr h3, .home .sec-5 .hldr h3, .home .sec-6 .hldr > h3, .home .sec-7 .hldr .loc-box h3, .home .sec-8 .hldr > ul > li > h3 { margin-bottom: 15px!important;}
+
+	.home .list-nav ul li { width: 100%; border-bottom: 1px solid #6eb3be; margin-bottom: 0px!important;}
+	.home .list-nav ul li a::after { display: none!important;}
+	.home .list-nav ul li a { border-bottom: 1px;}
+
+	.home .sec-5 .slder-hldr .cmn_class .owl-dots, .home .sec-4 .slder-hldr .cmn_class .owl-dots, .home .sec-3 .slder-hldr .cmn_class .owl-dots { position: relative!important; bottom: 0!important; padding: 10px 0px;}
+	.home .sec-5 .slder-hldr .cmn_class .owl-dots .owl-dot span, .home .sec-4 .slder-hldr .cmn_class .owl-dots .owl-dot span, .home .sec-3 .slder-hldr .cmn_class .owl-dots .owl-dot span{ border: 1px solid #000; height: 15px!important; width: 15px!important;}
+
+
+	.home .sec-3, .home .sec-4, .home .sec-5 { border-bottom: 2px solid #6eb3be;}
+	.home .sec-8 .hldr > ul > li:last-child > p { margin-bottom: 20px!important; text-align: center;}
+	.home .sec-8 .hldr > ul > li > h3 { text-align: center;}
+	.home .sec-8 .hldr > ul > li:first-child div.parent .children {margin-bottom: 20px!important;}
+	.home .sec-8 .hldr > ul > li:first-child div.parent .children:nth-child(odd) { padding-right: 0px!important;}
+	.home .sec-8 .hldr > ul > li:first-child div.parent .children { width: 100%!important;}
+	.home .sec-8 .hldr > ul > li:first-child div.parent .children:nth-child(even) { padding-left: 0px!important;}
+	.home .sec-8 .hldr > ul > li:first-child div.parent .children h5 { margin-bottom: 10px!important;}
+	.home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li { padding: 0px!important; width: 100%!important;}
+	.home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="submit"] { width: 100%!important;}
+	.home .sec-7 .hldr .map-hldr iframe { height: 350px!important;}
+
+	footer { padding: 20px 0px!important;}
+	footer article > ul li { padding-right: 0px!important; width: 100%!important; margin-bottom: 10px!important; text-align: center;}
+	footer article > ul li aside { margin-top: 0px!important;}
+	footer article > ul li aside img { margin: 0 auto!important; display: block!important;}
+
+	.home .sec-6 .hldr .list-hldr > ul > li p { padding-left: 0px!important;}
+
+
+}

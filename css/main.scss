@@ -115,7 +115,7 @@ body { overflow-x: hidden;}
 
 
 
-.nav-custom {     background: #fff; width: 100%; min-height: 75px; margin: 0px;  border-radius: 0px; border: 0px; border-color: transparent;  padding: 6px 0px;
+.nav-custom {     background: #fff; width: 100%; min-height: 75px; margin: 0px;  border-radius: 0px; border: 0px; border-color: transparent;  padding: 6px 0px; border-bottom: 8px solid #73b9c2;
 
 
     
@@ -139,14 +139,15 @@ body { overflow-x: hidden;}
 }
 
 
-.nav_srch { padding: 12px 55px 12px 30px; background-color: rgba(71, 164, 175, 0.76);
+.nav_srch {/*  padding: 12px 55px 12px 30px; background-color: rgba(71, 164, 175, 0.76); */     position: absolute;
+    top: 25px; right: 30px;
     ul { @extend .flex; float: right;
         li { padding-right: 19px; 
             a { 
                 img { width: auto;}
             }
 
-            .search_hldr {  width: 280px; position: relative;
+            .search_hldr {  /* width: 280px; position: relative; */
                 input[type="text"]{  width: 100%; height: 28px; border: 1px solid #49a6b0; padding-left: 35px; border-radius: 15px;}
                 input[type="text"]::placeholder { letter-spacing: 1px;}
                 input[type="submit"] { background-image: url(../images/search-icon.png); text-indent: -999999px; overflow: hidden; width: 17px; height: 17px; background-color: #fff;     padding: 0px; position: absolute; top: 5px; left: 10px;}
@@ -362,7 +363,7 @@ body { overflow-x: hidden;}
                     > p {  margin-bottom: 30px; font-family: $fonttitle; font-size: 18px; color: #000; letter-spacing: 2px;}
 
                     .form-hldr {
-                        > ul { @extend .flex;
+                        ul { @extend .flex;
                             li {  width: 50%; margin-bottom: 25px;
                                 input[type="text"], input[type="email"] { padding: 0px 15px; height: 49px; border: 1px solid #808080; width: 100%; font-family: $fontmain; font-size: 16px; color: #000;}
 

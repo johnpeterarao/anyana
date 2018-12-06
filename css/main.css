@@ -104,7 +104,7 @@ input, select, textarea, button {
   right: 10px;
   top: 10px; }
 
-.flex, .nav_srch ul, .home .sec-6 .hldr .list-hldr > ul, .home .sec-8 .hldr > ul, .home .sec-8 .hldr > ul > li:first-child div.parent, .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul, footer article > ul {
+.flex, .nav_srch ul, .home .sec-6 .hldr .list-hldr > ul, .home .sec-8 .hldr > ul, .home .sec-8 .hldr > ul > li:first-child div.parent, .home .sec-8 .hldr > ul > li:last-child .form-hldr ul, footer article > ul {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -137,7 +137,8 @@ body {
   border-radius: 0px;
   border: 0px;
   border-color: transparent;
-  padding: 6px 0px; }
+  padding: 6px 0px;
+  border-bottom: 8px solid #73b9c2; }
   .nav-custom .navbar-nav {
     display: -webkit-box;
     display: -moz-box;
@@ -166,8 +167,10 @@ body {
     max-width: 100%; }
 
 .nav_srch {
-  padding: 12px 55px 12px 30px;
-  background-color: rgba(71, 164, 175, 0.76); }
+  /*  padding: 12px 55px 12px 30px; background-color: rgba(71, 164, 175, 0.76); */
+  position: absolute;
+  top: 25px;
+  right: 30px; }
   .nav_srch ul {
     float: right; }
     .nav_srch ul li {
@@ -175,8 +178,7 @@ body {
       .nav_srch ul li a img {
         width: auto; }
       .nav_srch ul li .search_hldr {
-        width: 280px;
-        position: relative; }
+        /* width: 280px; position: relative; */ }
         .nav_srch ul li .search_hldr input[type="text"] {
           width: 100%;
           height: 28px;
@@ -471,10 +473,10 @@ body {
       font-size: 18px;
       color: #000;
       letter-spacing: 2px; }
-    .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li {
+    .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li {
       width: 50%;
       margin-bottom: 25px; }
-      .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="text"], .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="email"] {
+      .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="text"], .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="email"] {
         padding: 0px 15px;
         height: 49px;
         border: 1px solid #808080;
@@ -482,11 +484,11 @@ body {
         font-family: "ProximaNova-Regular", Arial, sans-serif;
         font-size: 16px;
         color: #000; }
-      .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="text"]::placeholder, .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="email"]::placeholder, .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li textarea::placeholder {
+      .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="text"]::placeholder, .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="email"]::placeholder, .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li textarea::placeholder {
         font-family: "Georgia", Arial, sans-serif;
         color: #000;
         letter-spacing: 2px; }
-      .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li textarea {
+      .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li textarea {
         padding: 15px 15px;
         border: 1px solid #808080;
         width: 100%;
@@ -494,20 +496,20 @@ body {
         font-family: "ProximaNova-Regular", Arial, sans-serif;
         font-size: 16px;
         color: #000; }
-      .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="submit"] {
+      .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="submit"] {
         padding: 13px 80px;
         background: #008996;
         color: #fff;
         font-family: "Georgia", Arial, sans-serif;
         letter-spacing: 2px; }
-    .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li:nth-child(odd) {
+    .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li:nth-child(odd) {
       padding-right: 30px; }
-    .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li:nth-child(even) {
+    .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li:nth-child(even) {
       padding-left: 30px; }
-    .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li:nth-child(5) {
+    .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li:nth-child(5) {
       width: 100%;
       padding-right: 0px; }
-    .home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li:last-child {
+    .home .sec-8 .hldr > ul > li:last-child .form-hldr ul li:last-child {
       width: 100%;
       padding-left: 0px;
       margin-bottom: 0px; }

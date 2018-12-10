@@ -372,18 +372,20 @@ body {
     margin-bottom: 50px;
     color: #2a99a7;
     text-transform: unset;
-    font-size: 26px; }
+    font-size: 24px; }
   .home .sec-6 .hldr .list-hldr > ul > li article {
     margin-bottom: 20px; }
   .home .sec-6 .hldr .list-hldr > ul > li article:last-of-type {
     margin-bottom: 0px; }
   .home .sec-6 .hldr .list-hldr > ul > li h4 {
-    text-transform: uppercase;
     color: #2a99a7;
     padding-bottom: 5px;
     border-bottom: 3px solid #2a99a7;
     float: left;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-family: "Georgia", Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px; }
   .home .sec-6 .hldr .list-hldr > ul > li p {
     width: 100%;
     float: left;

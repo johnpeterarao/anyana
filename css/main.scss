@@ -291,14 +291,14 @@ body { overflow-x: hidden;}
 
     .sec-6 {     padding: 60px 0px 60px; background: url(../images/sec-6.png) #fff; background-size: 100%; background-repeat: no-repeat; background-position: bottom center;
         .hldr {
-            > h3 { text-align: center; margin-bottom: 50px; color: $blue; text-transform: unset; font-size: 26px;}
+            > h3 { text-align: center; margin-bottom: 50px; color: $blue; text-transform: unset; font-size: 24px;}
 
             .list-hldr {
                 > ul { @extend .flex;
                     > li { 
                         article { margin-bottom: 20px;}
                         article:last-of-type { margin-bottom: 0px;}
-                        h4 { text-transform: uppercase; color: $blue; padding-bottom: 5px; border-bottom: 3px solid $blue; float: left; margin-bottom: 15px;}
+                        h4 {      color: $blue; padding-bottom: 5px; border-bottom: 3px solid #2a99a7; float: left; margin-bottom: 15px; font-family: "Georgia", Arial, sans-serif; letter-spacing: 3px; font-size: 24px;}
                         p { width: 100%; float: left; font-family: $fontmain; font-size: 16px; margin-bottom: 15px; padding-left: 25px;}
                     }
 

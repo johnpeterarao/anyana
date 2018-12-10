@@ -225,7 +225,10 @@ body {
     font-family: "Georgia", Arial, sans-serif;
     font-size: 30px;
     text-transform: uppercase;
-    color: #2a99a7; }
+    color: #2a99a7;
+    display: inline-block;
+    border-bottom: 3px solid #2a99a7;
+    padding-bottom: 5px; }
   .home .sec-1 .text-hldr p {
     font-family: "Tahoma", Arial, sans-serif;
     font-size: 16px;
@@ -256,7 +259,10 @@ body {
   .home .sec-3 .hldr h3 {
     margin-bottom: 20px;
     color: #2a99a7;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 3px solid #2a99a7;
+    padding-bottom: 5px; }
   .home .sec-3 .hldr p {
     font-family: "Tahoma", Arial, sans-serif;
     font-size: 16px;
@@ -287,7 +293,10 @@ body {
   text-align: center; }
   .home .sec-4 .hldr h3 {
     margin-bottom: 20px;
-    color: #2a99a7; }
+    color: #2a99a7;
+    display: inline-block;
+    border-bottom: 3px solid #2a99a7;
+    padding-bottom: 5px; }
   .home .sec-4 .hldr p {
     font-family: "ProximaNova-Regular", Arial, sans-serif;
     margin-bottom: 20px;
@@ -321,7 +330,10 @@ body {
   text-align: center; }
   .home .sec-5 .hldr h3 {
     margin-bottom: 20px;
-    color: #2a99a7; }
+    color: #2a99a7;
+    display: inline-block;
+    border-bottom: 3px solid #2a99a7;
+    padding-bottom: 5px; }
   .home .sec-5 .hldr p {
     font-family: "ProximaNova-Regular", Arial, sans-serif;
     margin-bottom: 20px;
@@ -358,7 +370,8 @@ body {
   .home .sec-6 .hldr > h3 {
     text-align: center;
     margin-bottom: 50px;
-    color: #2a99a7; }
+    color: #2a99a7;
+    text-transform: unset; }
   .home .sec-6 .hldr .list-hldr > ul > li article {
     margin-bottom: 20px; }
   .home .sec-6 .hldr .list-hldr > ul > li article:last-of-type {

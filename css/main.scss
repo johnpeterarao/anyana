@@ -168,7 +168,7 @@ body { overflow-x: hidden;}
 .home {
     .sec-1 { 
         .text-hldr { padding: 60px 0px 80px; background: url(../images/sec-1.png) #fff; background-repeat: no-repeat; background-repeat-x: repeat;     background-position: center bottom; text-align: center;
-            h3 {  margin-bottom: 30px; font-family: $fonttitle; font-size: 30px; text-transform: uppercase; color: $blue;}
+            h3 {  margin-bottom: 30px; font-family: $fonttitle; font-size: 30px; text-transform: uppercase; color: $blue; display: inline-block; border-bottom: 3px solid $blue; padding-bottom: 5px;}
             p { font-family: $fontmain2; font-size: 16px; line-height: 26px;}
         }
     }
@@ -188,7 +188,7 @@ body { overflow-x: hidden;}
 
     .sec-3 {
         .hldr { padding: 55px 0px 0px; background: $white; text-align: center;
-            h3 { margin-bottom: 20px; color: $blue; text-transform: uppercase;}
+            h3 { margin-bottom: 20px; color: $blue; text-transform: uppercase; display: inline-block; border-bottom: 3px solid #2a99a7; padding-bottom: 5px;}
             p { font-family: $fontmain2; font-size: 16px; line-height: 26px;}
         }
 
@@ -220,7 +220,7 @@ body { overflow-x: hidden;}
     .sec-4 {     padding: 55px 0px 0px; background: #fff; text-align: center;
 
         .hldr {
-                h3 { margin-bottom: 20px; color: $blue;}
+                h3 { margin-bottom: 20px; color: $blue; display: inline-block; border-bottom: 3px solid #2a99a7; padding-bottom: 5px;}
                 p { font-family: $fontmain; margin-bottom: 20px; font-size: 16px; line-height: 26px;}
 
                 p:last-of-type { margin-bottom: 0px;}
@@ -259,7 +259,7 @@ body { overflow-x: hidden;}
     .sec-5 {     padding: 55px 0px 0px; background: #fff; text-align: center;
 
         .hldr {
-            h3 { margin-bottom: 20px; color: $blue;}
+            h3 { margin-bottom: 20px; color: $blue; display: inline-block; border-bottom: 3px solid #2a99a7; padding-bottom: 5px;}
             p { font-family: $fontmain; margin-bottom: 20px; font-size: 16px; line-height: 26px;}
 
             p:last-of-type { margin-bottom: 0px;}
@@ -291,7 +291,7 @@ body { overflow-x: hidden;}
 
     .sec-6 {     padding: 60px 0px 60px; background: url(../images/sec-6.png) #fff; background-size: 100%; background-repeat: no-repeat; background-position: bottom center;
         .hldr {
-            > h3 { text-align: center; margin-bottom: 50px; color: $blue;}
+            > h3 { text-align: center; margin-bottom: 50px; color: $blue; text-transform: unset;}
 
             .list-hldr {
                 > ul { @extend .flex;

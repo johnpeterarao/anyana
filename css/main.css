@@ -371,7 +371,8 @@ body {
     text-align: center;
     margin-bottom: 50px;
     color: #2a99a7;
-    text-transform: unset; }
+    text-transform: unset;
+    font-size: 26px; }
   .home .sec-6 .hldr .list-hldr > ul > li article {
     margin-bottom: 20px; }
   .home .sec-6 .hldr .list-hldr > ul > li article:last-of-type {

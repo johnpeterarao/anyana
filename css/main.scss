@@ -291,7 +291,7 @@ body { overflow-x: hidden;}
 
     .sec-6 {     padding: 60px 0px 60px; background: url(../images/sec-6.png) #fff; background-size: 100%; background-repeat: no-repeat; background-position: bottom center;
         .hldr {
-            > h3 { text-align: center; margin-bottom: 50px; color: $blue; text-transform: unset;}
+            > h3 { text-align: center; margin-bottom: 50px; color: $blue; text-transform: unset; font-size: 26px;}
 
             .list-hldr {
                 > ul { @extend .flex;

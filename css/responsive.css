@@ -1,61 +1,221 @@
 
+
+
+@media only screen and (max-width: 1440px){
+	.nav-custom .holder .right-nav ul a { padding: 0px 15px!important;}
+}
+
+
 @media only screen and (max-width: 1300px){
-	.wrapper { max-width: 100%!important; padding: 0px 25px;}
+	.wrapper, .wrapper2 { max-width: 100%!important; padding: 0px 25px;}
+	.nav_srch .hldr { padding: 12px 15px!important;}
+
+	.title, .amenities .sec-1 h3, .buyers-guide section .hldr .item-1 article h2, .buyers-guide section .hldr .ad-req .top article h3, .contact section .top h3, .location .loc-hldr .parent article.bottom-title h4, .location .loc-hldr .parent .top-title2 h4, .location .loc-hldr .parent article h4, .products .sec-1 h3, .category-commercial .sec-1 h3, .category-hl .sec-1 h3, .category-hl .item .hldr h4, .category-hl > .item .hldr h4, .updates .sec-1 .hldr article h3, .updates .sec-2 .hldr ul li .item article h4, .products-selected .sec-1 h3, .products-selected .overview > article h3, .products-selected .map-loc .hldr .content aside h3, .products-selected .amenities .hldr article h3, .products-selected .floor-plans .hldr > article h3, .products-selected .construction .hldr article h3, .gallery .list-1 li h3, .location .map > article h3  { font-size: 35px!important;} 
+
+	
+	.buyers-guide section .hldr .line-title, .location .sec-1 > div h4 { font-size: 30px!important;}
+
+	/*AFTER OF PAGEWRAPPER*/
+	.amenities .sec-1 .wrapper2:first-of-type::after, .products .sec-1 .wrapper2:first-of-type::after, .category-commercial .sec-1 .wrapper2:first-of-type::after, .contact section .wrapper2:first-of-type::after, .category-hl .sec-1 .wrapper2:first-of-type::after, .products-selected .sec-1 .wrapper2:first-of-type::after, .location .map > article .wrapper2:first-of-type::after { width: 75px!important; left: 0px!important;}
+
+
+	.amenities .sec-1 h3, .products .sec-1 h3, .category-commercial .sec-1 h3, .category-hl .sec-1 h3, .products-selected .sec-1 h3 { padding: 20px 0px!important; padding-left: 65px!important;}
+	.location .map > article h3 { padding-left: 65px!important;}
+
+	/*END OF AFTER OF PAGEWRAPPER*/
+
+	
+	.gallery .hldr .gallery-slider .item article { max-width: 100%!important; transform: translate(0, 0)!important; left: 0!important; padding: 0px 25px!important;}
+	.contact section .top h3 { padding-left: 65px!important;}
+
+	.location .map > aside { max-width: 450px!important; top: 50%!important; transform: translate(0, -50%)!important; }
+	.location .map > article ul.main-list  { padding-right: 440px!important;}
+
+
+
 
 }
 
 @media only screen and (max-width: 1200px){
 	/*=======Section Padding==========*/
-	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map { padding: 40px 0px!important;}
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction { padding: 40px 0px!important;}
 
 	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 40px!important;}
 
-	.home .sec-8 { padding: 60px 0px 40px!important;}
+	.products .sec-2 ul li  { padding-bottom: 40px!important;}
+
+	.sec-8 { padding: 60px 0px 40px!important;}
 	/*=======End Of Section Padding==========*/
-
-	
-
 
 	.home .sec-1 .text-hldr h3 { margin-bottom: 20px!important;}
 	.home .sec-6 .hldr > h3 { margin-bottom: 30px!important;}
 
 
+
 	.home .sec-2 .text-hldr p, .home .sec-4 .hldr p, .home .sec-5 .hldr p, .home .sec-7 .hldr .loc-box p { margin-bottom: 10px!important;}
 	.home .sec-2 .text-hldr p:last-of-type, .home .sec-4 .hldr p:last-of-type, .home .sec-5 .hldr p:last-of-type { margin-bottom: 0px!important;}
+
+
+	.nav-custom .holder .right-nav ul a { font-size: 13px!important; padding: 0px 10px!important;}
+
+	.buyers-guide section .hldr .item-2, .buyers-guide section .hldr .item-3 { padding-top: 40px!important;}
+	.buyers-guide section .hldr .item-2 article { padding: 60px 30px!important;}
+	.buyers-guide section .hldr .item-2.p-type, .buyers-guide section .hldr .item-3.p-first { padding-bottom: 40px!important;}
+	.buyers-guide section .hldr .item-3.list-first.last-item, .buyers-guide section .hldr .item-2.list-type.last-item, .buyers-guide section .hldr .item-3.p-first { padding-top: 0px!important;}
+
+	.contact section .top { margin-bottom: 50px!important;}
+	.contact section .hldr article ul li:nth-child(odd){ padding-right: 20px!important;}
+	.contact section .hldr article ul li:nth-child(even) { padding-left: 20px!important;}
+	.contact section .hldr article ul li:nth-child(5) { padding-right: 0px!important;}
+	.contact section .hldr article ul li:last-child { padding-left: 0px!important;}
+
+
+	.location .loc-hldr .parent article { padding: 60px!important;}
+
+	.products-selected .menu ul li a { font-size: 18px!important;}
+
+}	
+
+
+@media only screen and (max-width: 1023px){
+	.nav-custom .holder .right-nav { float: none!important;     position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #73bac2; z-index: 9; padding: 50px; transform: translate(-100%, 0);}
+	.nav-custom .holder .right-nav ul { display: block!important; padding-top: 0px!important; }
+
+	.nav-custom .holder .right-nav ul li { opacity: 0;}
+	.nav-custom .holder .right-nav ul li a { display: block!important; padding: 0px!important; text-align: center; padding: 15px 25px!important; font-size: 16px!important; transition: 0.3s ease-in-out;}
+
+	.nav-custom .holder .right-nav ul li.active, .nav-custom .holder .right-nav ul li.active:hover, .nav-custom .holder .right-nav ul li:hover { background: #008996!important; transition: 0.3s ease-in-out;}
+	.nav-custom .holder .right-nav ul li.active a, .nav-custom .holder .right-nav ul li.active:hover a, .nav-custom .holder .right-nav ul li:hover a { color: #fff!important; transition: 0.3s ease-in-out;}
+
+	.burger, .nav-custom .holder .right-nav span { display: block!important;}
+	.nav_srch .hldr  {padding: 12px 0px!important}
 }
+
 
 
 @media only screen and (max-width: 999px){
 
-	.home .sec-8 { padding: 40px 0px 40px!important;}
+	.sec-8 { padding: 40px 0px 40px!important;}
 
 
 	.home .sec-6 .hldr .list-hldr > ul > li:first-child { width: 100%!important; padding-right: 0px!important; margin-bottom: 20px;}
 	.home .sec-6 .hldr .list-hldr > ul > li:last-child { width: 100%!important; padding-left: 0px!important; }
 
-	.home .sec-8 .hldr > ul > li:first-child { width: 100%!important; padding-right: 0px!important; margin-bottom: 20px;}
-	.home .sec-8 .hldr > ul > li:last-child { width: 100%!important; padding-left: 0px!important;}
-	.home .sec-8 .hldr > ul > li > h3 { margin-bottom: 20px!important;}
+	.sec-8 .hldr > ul > li:first-child { width: 100%!important; padding-right: 0px!important; margin-bottom: 20px;}
+	.sec-8 .hldr > ul > li:last-child { width: 100%!important; padding-left: 0px!important;}
+	.sec-8 .hldr > ul > li > h3 { margin-bottom: 20px!important;}
 
 	footer article { max-width: 100%!important; padding: 0px 20px!important;}
 	footer { padding: 25px 0px!important;}
 	footer article > ul { justify-content: center!important;}
 	footer article > ul li h4 { font-size: 18px!important; letter-spacing: 0px!important;}
-	.nav_srch { position: relative!important; top: 0px!important; right: 0px!important; padding: 5px 30px!important;}
-	.nav-custom { border-bottom: 0px!important; padding-bottom: 0px!important; min-height: 65px!important;}
+	.nav_srch { position: relative!important; top: 0px!important; right: 0px!important; /*padding: 5px 30px!important;*/}
+	.nav-custom { border-bottom: 0px!important;/* padding-bottom: 0px!important;*/ min-height: 65px!important;}
 	.home .sec-6 .hldr .list-hldr > ul > li:first-child { margin-top: 15px;}
+
+	.about .sec-2 .hldr > aside { width: 100%!important;}
+	.about .sec-2 .hldr > article { width: 100%!important; padding-left: 0px!important; margin-top: 50px;}
+	.about .sec-2 .hldr > aside ul li { width: 45%; margin-bottom: 40px!important;}
+	.about .sec-2 .hldr > aside ul { 	display: -webkit-box;  display: -moz-box;  display: -ms-flexbox;  display: -webkit-flex;  display: flex;  -webkit-flex-flow: row wrap;  justify-content: space-around ;  flex-wrap: wrap; } 
+
+
+	.buyers-guide section .hldr .item-1 { flex-direction: row!important;}
+	.buyers-guide section .hldr .item-1 aside { width: 100%!important; height: 420px!important;}
+	.buyers-guide section .hldr .item-1 article { width: 100%!important;}
+	.buyers-guide section .hldr .item-1 aside img { position: relative!important}
+	.buyers-guide section .hldr .item-1 article { padding: 40px 25px!important;}
+	.buyers-guide section .hldr .item-1 article h2{ margin-bottom: 30px!important;}
+	.buyers-guide section .hldr .item-1 article p { margin-bottom: 20px!important;}
+	.buyers-guide section .hldr .item-1 article p:last-of-type { margin-bottom: 0px!important;}
+	.buyers-guide section .hldr .item-2 aside { width: 100%!important;}
+	.buyers-guide section .hldr .item-2 article, .buyers-guide section .hldr .item-3 article { width: 100%!important; padding: 40px 25px!important;}
+	
+	
+	.buyers-guide section .hldr .item-2 aside h3, .buyers-guide section .hldr .item-3 aside .line-title { padding-left: 88px!important; position: relative!important; top: 0!important; margin-bottom: 15px!important;}
+	.buyers-guide section .hldr .item-3 { flex-direction: row!important;}
+	.buyers-guide section .hldr .item-3 aside { width: 100%!important;}
+	.buyers-guide section .hldr .item-3 article { width: 100%!important;}
+	.buyers-guide section .hldr .ad-req .top { flex-direction: row!important;}
+	.buyers-guide section .hldr .ad-req .top article, .buyers-guide section .hldr .ad-req .top aside { width: 100%!important;}
+	.buyers-guide section .hldr .ad-req .top article { padding: 20px 25px!important;}
+	.buyers-guide section .hldr .ad-req .btm { padding: 30px 25px!important;}
+
+	.buyers-guide section .hldr .item-1 .line-title::after { left: -25px!important; width: 80px!important }
+	.buyers-guide section .hldr .item-2 aside h3::after, .buyers-guide section .hldr .line-title::after { left: 0!important; width: 80px!important;}
+	.buyers-guide section .hldr .ad-req .top article h3 { text-align: center!important;}
+
+	.contact section .hldr > ul {width: 100%!important;}
+	.contact section .hldr > article { width: 100%!important;}
+	.contact section .hldr > ul { padding-top: 0px!important;}
+
+	.contact section .top { margin-bottom: 30px!important;}
+
+	.location .loc-hldr .parent aside { width: 100%!important}
+	.location .loc-hldr .parent article { width: 100%!important; padding: 40px 25px 0px!important;}
+	.location .loc-hldr .parent article.bottom-title h4::after, .location .loc-hldr .parent .top-title2 h4::after { left: 0px!important;}
+	.location .loc-hldr .parent .top-title h4::after { right: 0px!important}
+
+	.category-hl.residential .start-p { position: relative!important; top: 0px!important; padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid #ebebeb;}
+	.category-hl.residential .item .hldr ul, .category-hl.residential .item .hldr h4 { padding-right: 0px!important;}
+	.category-hl.residential .item .hldr ul { padding-bottom: 0px!important;  border-bottom: 0px!important}
+
+	.updates .sec-1 .hldr aside { width: 100%!important;}
+	.updates .sec-1 .hldr article { width: 100%!important; padding: 40px 25px!important;}
+	.updates .sec-1 .hldr article h3::after { left: -25px!important; width: 75px!important;}
+	.updates .sec-1 .hldr article h3 { padding-left: 65px!important;}
+	.updates .sec-2 .hldr ul li .item aside{ width: 45%!important}
+	.updates .sec-2 .hldr ul li .item article { width: 55%!important; padding: 40px 20px!important;}
+	.updates .sec-2 .hldr ul li .item aside img { position: absolute; height: 100%; object-fit: cover; object-position: center; }
+
+	.products-selected .overview > article .hldr aside, .products-selected .map-loc .hldr .content aside { width: 100%!important; margin-bottom: 20px!important;}
+	.products-selected .overview > article .hldr article, .products-selected .map-loc .hldr .content article { width: 100%!important; padding-right: 0px!important;}
+	.products-selected .overview > article h3 {margin-bottom: 30px!important;}
+
+	.products-selected .amenities .hldr aside { width: 100%!important; padding-top: 0px!important; margin-bottom: 20px;}
+	.products-selected .amenities .hldr article { width: 100%!important; padding-right: 0px!important;}
+
+	.products-selected .floor-plans .hldr > article { width: 100%!important; padding-left: 0px!important;}
+	.products-selected .floor-plans .hldr > aside{ width: 100%!important; margin-bottom: 20px;}
+	.products-selected .floor-plans .hldr > article h3::after { display: none!important;}
+	.products-selected .floor-plans .hldr > article h3 { margin-bottom: 20px!important;}
+	.products-selected .construction .hldr aside { width: 100%!important; margin-bottom: 20px;}
+	.products-selected .construction .hldr article { width: 100%!important; padding-right: 0px!important;}
+
+	.gallery .hldr .gallery-slider .item article { position: relative!important; top: 0px!important; padding: 10px 25px!important}
+	.gallery .list-1 li:first-child { display: none!important;}
+	.gallery .list-1 li:nth-child(2) { width: 100%!important; padding-left: 0px!important;}
+	.gallery .hldr .gallery-slider .item article .hero { width: 100%!important; padding-right: 0px!important;}
+	.gallery .list-1 li h3::after { display: none!important;}
+
+
+
+	.location .map > article ul.main-list { padding-right: 0px!important;}
+	.location .map > aside { position: relative!important; top: 0!important; transform: translate(0, 0)!important; max-width: 540px!important; margin: 0 auto!important; padding: 0px 20px;}
+	.location .map { padding: 40px 0px!important;}
+	.location .map > article { padding: 0px!important; margin-top: 40px!important;}
+
 }
+
+
+
+
 
 @media only screen and (max-width: 800px){
 
-
-
-
-	.home .sec-1 .text-hldr h3, .title_ { font-size: 25px!important; line-height: 33px!important; letter-spacing: 0px!important;}
+	.home .sec-1 .text-hldr h3, .title_, .title, .amenities .sec-1 h3, .buyers-guide section .hldr .item-1 article h2, .buyers-guide section .hldr .ad-req .top article h3, .contact section .top h3, .location .loc-hldr .parent article.bottom-title h4, .location .loc-hldr .parent .top-title2 h4, .location .loc-hldr .parent article h4, .products .sec-1 h3, .category-commercial .sec-1 h3, .category-hl .sec-1 h3, .category-hl .item .hldr h4, .category-hl > .item .hldr h4, .updates .sec-1 .hldr article h3, .updates .sec-2 .hldr ul li .item article h4, .products-selected .sec-1 h3, .products-selected .overview > article h3, .products-selected .map-loc .hldr .content aside h3, .products-selected .amenities .hldr article h3, .products-selected .floor-plans .hldr > article h3, .products-selected .construction .hldr article h3, .gallery .list-1 li h3, .location .map > article h3 { font-size: 30px!important; line-height: 38px!important; letter-spacing: 0px!important;}
+	.buyers-guide section .hldr .line-title, .location .sec-1 > div h4 { font-size: 25px!important;}
 	.home .list-nav ul li a {  font-size: 17px!important;}
 	.wrapper { padding: 0px 20px!important;}
 
+	.amenities .imagew-list article ul.tri-list li h5, .amenities .imagew-list article ul.quad-list li h5 { font-size: 18px!important;}
 
+	.amenities .imagew-list article ul.quad-list li { width: 33.3%!important;}
+	.amenities .imagew-list article ul.quad-list li:nth-child(3n + 2) { text-align: center!important}
+	.amenities .imagew-list article ul.quad-list li:nth-child(3n + 3) { text-align: right!important}
+	.amenities .imagew-list article ul.quad-list li:nth-child(4) { margin-top: 25px!important;}
+	.products-selected .menu ul li{ width: 25%!important; text-align: center; margin-bottom: 15px;}
+	.products-selected .menu ul { justify-content: center!important;}
+	.gallery .hldr .gallery-slider .owl-nav { top: 40%!important}
 
 }
 
@@ -71,17 +231,23 @@
 
 @media only screen and (max-width: 600px){
 	/*=======Section Padding==========*/
-	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map { padding: 30px 0px!important;}
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .category-hl > .item, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction, .gallery .list-1, .location .map { padding: 30px 0px!important;}
 
 	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 30px!important;}
 	
-	.home .sec-8 { padding: 30px 0px!important;}
+	.sec-8 { padding: 30px 0px!important;}
+
+	.updates .sec-1 .hldr article {padding: 30px 20px!important;}
+
+
+	.products .sec-2 ul li, .category-hl.residential { padding-bottom: 30px!important; }
+
 	/*=======End Of Section Padding==========*/
 
 
 	.home .sec-7 .hldr .larger-map a { padding: 10px 15px!important;}
 
-	.home .sec-1 .text-hldr h3, .home .sec-2 .text-hldr h3, .home .sec-3 .hldr h3, .home .sec-4 .hldr h3, .home .sec-5 .hldr h3, .home .sec-6 .hldr > h3, .home .sec-7 .hldr .loc-box h3, .home .sec-8 .hldr > ul > li > h3 { margin-bottom: 15px!important;}
+	.home .sec-1 .text-hldr h3, .home .sec-2 .text-hldr h3, .home .sec-3 .hldr h3, .home .sec-4 .hldr h3, .home .sec-5 .hldr h3, .home .sec-6 .hldr > h3, .home .sec-7 .hldr .loc-box h3, .sec-8 .hldr ul > li > h3 { margin-bottom: 15px!important;}
 
 	.home .list-nav ul li { width: 100%; border-bottom: 1px solid #6eb3be; margin-bottom: 0px!important;}
 	.home .list-nav ul li a::after { display: none!important;}
@@ -92,28 +258,134 @@
 
 
 	.home .sec-3, .home .sec-4, .home .sec-5 { border-bottom: 2px solid #6eb3be;}
-	.home .sec-8 .hldr > ul > li:last-child > p { margin-bottom: 20px!important; text-align: center;}
-	.home .sec-8 .hldr > ul > li > h3 { text-align: center;}
-	.home .sec-8 .hldr > ul > li:first-child div.parent .children {margin-bottom: 20px!important;}
-	.home .sec-8 .hldr > ul > li:first-child div.parent .children:nth-child(odd) { padding-right: 0px!important;}
-	.home .sec-8 .hldr > ul > li:first-child div.parent .children { width: 100%!important;}
-	.home .sec-8 .hldr > ul > li:first-child div.parent .children:nth-child(even) { padding-left: 0px!important;}
-	.home .sec-8 .hldr > ul > li:first-child div.parent .children h5 { margin-bottom: 10px!important;}
-	.home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li { padding: 0px!important; width: 100%!important;}
-	.home .sec-8 .hldr > ul > li:last-child .form-hldr > ul li input[type="submit"] { width: 100%!important;}
+	.sec-8 .hldr ul > li:last-child > p { margin-bottom: 20px!important; text-align: center;}
+	.sec-8 .hldr ul > li > h3 { text-align: center;}
+	.sec-8 .hldr ul > li:first-child div.parent .children {margin-bottom: 20px!important;}
+	.sec-8 .hldr ul > li:first-child div.parent .children:nth-child(odd) { padding-right: 0px!important;}
+	.sec-8 .hldr ul > li:first-child div.parent .children { width: 100%!important;}
+	.sec-8 .hldr ul > li:first-child div.parent .children:nth-child(even) { padding-left: 0px!important;}
+	.sec-8 .hldr ul > li:first-child div.parent .children h5 { margin-bottom: 10px!important;}
+	.sec-8 .hldr ul > li:last-child .form-hldr > ul li { padding: 0px!important; width: 100%!important;}
+	.sec-8 .hldr ul > li:last-child .form-hldr > ul li input[type="submit"] { width: 100%!important;}
+	.sec-8 .hldr > ul > li:last-child .form-hldr ul li:nth-child(even) { padding-left: 0px!important;}
+	.sec-8 .hldr > ul > li:last-child .form-hldr ul li:nth-child(odd) { padding-right: 0px!important;}
 	.home .sec-7 .hldr .map-hldr iframe { height: 350px!important;}
-
+	.sec-8 .hldr > ul > li:last-child .form-hldr ul li  { width: 100%!important;}
 	footer { padding: 20px 0px!important;}
 	footer article > ul li { padding-right: 0px!important; width: 100%!important; margin-bottom: 10px!important; text-align: center;}
 	footer article > ul li aside { margin-top: 0px!important;}
 	footer article > ul li aside img { margin: 0 auto!important; display: block!important;}
-
 	.home .sec-6 .hldr .list-hldr > ul > li p { padding-left: 0px!important;}
-
-
-	.nav_srch { padding: 5px 15px!important;}
+	/*.nav_srch { padding: 5px 15px!important;}*/
 	.nav_srch ul { float: none!important;}
-	.nav_srch ul li { padding-right: 15px!important;}
+	.nav_srch ul li { padding-right: 30px!important;}
+	.nav-custom .holder .right-nav { padding: 50px 20px!important;}
+	.nav_srch ul li:first-child { display: none!important;}
+	.wrapper, .wrapper2 { padding: 0px 20px!important;}
 
 
-}
+
+	.about .sec-2 .hldr > aside ul li { width: 100%!important;}
+	.title.line span { display: none!important;}
+	.title.line { text-align: center!important; display: block!important;}
+	.about .sec-2 .title.line { padding: 0px 20px!important;}
+	.about .sec-2 .hldr > article ul li > .hldr div { width: calc(100% - 65px)!important;  margin-right: 0px!important; padding-right: 0px!important; padding-left: 15px!important;}
+	
+	.about .sec-2 .hldr > article ul li > .hldr { flex-direction: row-reverse!important;}
+	.about .sec-2 .hldr > article ul li > .hldr.right-text div { margin-left: 0px!important; padding-left: 15px!important;}
+	.about .sec-2 .hldr > article ul li > .hldr::after { left: 30px!important; transform: translate(0, 0)!important;}
+
+	.about .sec-2 .hldr > article ul li > .hldr > span { width: 65px!important; height: 65px!important; font-size: 18px!important; border: 3px solid #278084!important;}
+	.about .sec-2 .hldr > article ul li > .hldr > span > .circle > span:first-of-type { left: -3px!important;}
+	.about .sec-2 .hldr > article ul li > .hldr > span > .circle > span { top: -3px!important; bottom: -3px!important; width: calc(50% + 3px)!important;}
+	.about .sec-2 .hldr > article ul li > .hldr > span > .circle > span:last-of-type em { left: -102%!important;}
+
+
+
+	.about .sec-2 .hldr > article { margin-top: 20px!important;}
+	.about .sec-2 .hldr > article p { text-align: center!important;}
+
+
+
+	/*AFTER OF PAGEWRAPPER*/
+	.amenities .sec-1 .wrapper2:first-of-type::after, .products .sec-1 .wrapper2:first-of-type::after, .category-commercial .sec-1 .wrapper2:first-of-type::after, .category-hl .sec-1 .wrapper2:first-of-type::after, .products-selected .sec-1 .wrapper2:first-of-type::after, .products-selected .map-loc .hldr .content aside h3::after, .products-selected .amenities .hldr article h3::after, .products-selected .construction .hldr article h3::after, .location .map > article .wrapper2:first-of-type::after { display: none!important;}
+
+	.amenities .sec-1 h3, .products .sec-1 h3, .category-commercial .sec-1 h3, .category-hl .sec-1 h3, .products-selected .sec-1 h3, .products-selected .map-loc .hldr .content aside h3, .location .map > article h3  { padding-left: 0px!important; text-align: center!important;}
+
+	/*END OF AFTER OF PAGEWRAPPER*/
+
+
+
+	.amenities .imagew-list article ul.quad-list li, .amenities .imagew-list article ul.tri-list li { width: 100%!important; margin-top: 20px!important;}
+	.amenities .imagew-list article ul.quad-list li:nth-child(3n + 2), .amenities .imagew-list article ul.tri-list li:nth-child(3n + 2) { text-align: left!important}
+	.amenities .imagew-list article ul.quad-list li:nth-child(3n + 3), .amenities .imagew-list article ul.tri-list li:nth-child(3n + 3) { text-align: left!important;}
+	.amenities .imagew-list article ul.quad-list li:first-child, .amenities .imagew-list article ul.tri-list li:first-child { margin-top: 0px!important;}
+
+
+	.buyers-guide section .hldr .item-1 article, .buyers-guide section .hldr .item-2 article, .buyers-guide section .hldr .item-3 article { padding: 30px 20px!important;}
+	.buyers-guide section .hldr .item-2, .buyers-guide section .hldr .item-3 { padding-top: 30px!important;}
+	.buyers-guide section .hldr .item-2.p-type, .buyers-guide section .hldr .item-3.p-first { padding-bottom: 30px!important;}
+	.buyers-guide section .hldr .item-1 .line-title::after, .buyers-guide section .hldr .item-2 aside h3::after, .buyers-guide section .hldr .line-title::after { display: none!important;}
+	.buyers-guide section .hldr .item-2 aside h3, .buyers-guide section .hldr .item-3 aside .line-title { padding: 10px 20px!important; background: #466d41; text-align: center!important;}
+	.buyers-guide section .hldr .item-1 article h3 { padding-left: 0px!important;}
+	.buyers-guide section .hldr .item-1 aside { height: 370px!important;}
+
+	.buyers-guide section .hldr .ad-req .btm > ul > li ul li { padding-left: 30px!important;}
+	.buyers-guide section .hldr .ad-req .btm > ul > li ul li::after { left: 10px!important;}
+
+	.contact section .wrapper2:first-of-type::after { display: none!important;}
+	.contact section .top h3{ padding-left: 0px!important;}
+	.contact section .hldr article ul li { width: 100%!important;  }
+	.contact section .hldr article ul li:nth-child(odd) { padding-right: 0px!important;}
+	.contact section .hldr article ul li:nth-child(even) { padding-left: 0px!important;}
+
+	.sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="text"], .sec-8 .hldr > ul > li:last-child .form-hldr ul li input[type="email"], .contact section .hldr article ul li input[type="text"], .contact section .hldr article ul li input[type="email"], .contact section .hldr article ul li input[type="number"] { height: 40px!important;}
+	.contact section .hldr > ul li { margin-bottom: 30px!important;}
+
+
+	.location .sec-1 { padding: 30px 20px 0px!important;}
+	.location .sec-1 h3 { margin-bottom: 15px!important;}
+	.location .sec-1 > div { padding-left: 0px!important;}
+	.location .loc-hldr .parent article { padding: 30px 20px!important;}
+	.location .loc-hldr .parent article.bottom-title h4, .location .loc-hldr .parent article h4{ padding-bottom: 10px!important;}
+	.location .loc-hldr .parent .top-title2 h4 { padding-top: 15px!important; padding-bottom: 0px!important;}
+
+
+	.category-hl .item .hldr .house-lot { padding: 0px!important; }
+	.category-hl > .item .hldr .house-lot .item aside{ height: 260px!important;}
+	.category-hl > .item .hldr .house-lot .item aside img { height: 100%!important; object-fit: cover!important; object-position: center!important; }
+	.category-hl > .item .hldr .house-lot .owl-nav .owl-prev {     background: url(../images/arrow-left-white.png)!important; }
+	.category-hl > .item .hldr .house-lot .owl-nav .owl-next { background: url(../images/arrow-right-white.png)!important; }
+	.category-hl > .item .hldr .house-lot .owl-nav { top: 40%!important;}
+
+	.category-hl > .item .hldr ul li{ width: 100%!important; padding-right: 0px!important; margin-bottom: 10px;}
+
+
+	.updates .sec-1 .hldr article h3 { padding-left: 0px!important; text-align: center!important;}
+	.updates .sec-1 .hldr article h3::after { display: none!important;}
+
+	.updates .sec-2 .hldr ul li .item aside, .updates .sec-2 .hldr ul li .item article  { width: 100%!important;}
+	.updates .sec-2 .hldr ul li .item aside img { position: relative!important;}
+
+
+	.updates .sec-2 .hldr ul li .item article { padding: 30px 20px!important;}
+
+	.products-selected .overview > article h3::after { display: none!important;}
+	.products-selected .overview > article h3 { padding-right: 0px!important; text-align: center!important; display: block!important;}
+	.products-selected .amenities .hldr article h3, .products-selected .floor-plans .hldr > article h3, .products-selected .construction .hldr article h3 { padding-right: 0px!important; display: block!important; text-align: center!important;}
+
+
+	.products-selected .menu ul li { width: 50%!important;}
+	.gallery .list-1 li h3 { text-align: center!important;}
+
+	.gallery .hldr .gallery-slider .item aside { height: 220px!important; }
+	.gallery .hldr .gallery-slider .item aside img { height: 100%!important; object-fit: cover!important;}
+	.gallery .hldr .gallery-slider .owl-nav { top: 30%!important;}
+	.gallery .hldr .gallery-slider .owl-nav .owl-prev { left: 20px!important;}
+	.gallery .hldr .gallery-slider .owl-nav .owl-next { right: 20px!important;}
+
+	.location .map > article ul.main-list > li .line-holder.km-27, .location .map > article ul.main-list > li .line-holder.km-28, .location .map > article ul.main-list > li .line-holder.km-29, .location .map > article ul.main-list > li .line-holder.km-26, .location .map > article ul.main-list > li .line-holder.km-25, .location .map > article ul.main-list > li .line-holder.km-24, .location .map > article ul.main-list > li .line-holder.km-23, .location .map > article ul.main-list > li .line-holder.km-22, .location .map > article ul.main-list > li .line-holder.km-21 { max-width: 100%!important;}
+
+
+
+}	

@@ -38,7 +38,7 @@
 
 @media only screen and (max-width: 1200px){
 	/*=======Section Padding==========*/
-	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction { padding: 40px 0px!important;}
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction, .news-inner .sec-2 { padding: 40px 0px!important;}
 
 	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 40px!important;}
 
@@ -231,7 +231,7 @@
 
 @media only screen and (max-width: 600px){
 	/*=======Section Padding==========*/
-	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .category-hl > .item, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction, .gallery .list-1, .location .map { padding: 30px 0px!important;}
+	.home .sec-1 .text-hldr, .home .sec-2 .text-hldr, .home .sec-6, .home .sec-7 .hldr .loc-box, .home .sec-7 .hldr .larger-map, .about .sec-2, .amenities .imagew-list article, .amenities .sec-1 .hldr, .contact section, .location .loc-hldr, .category-commercial .sec-1 .hldr, .category-hl > .item, .updates .sec-2, .products-selected .overview > article, .products-selected .map-loc .hldr, .products-selected .amenities, .products-selected .floor-plans, .products-selected .construction, .gallery .list-1, .location .map, .news-inner .sec-2 { padding: 30px 0px!important;}
 
 	.home .sec-3 .hldr, .home .sec-4, .home .sec-5 { padding-top: 30px!important;}
 	
@@ -386,6 +386,8 @@
 
 	.location .map > article ul.main-list > li .line-holder.km-27, .location .map > article ul.main-list > li .line-holder.km-28, .location .map > article ul.main-list > li .line-holder.km-29, .location .map > article ul.main-list > li .line-holder.km-26, .location .map > article ul.main-list > li .line-holder.km-25, .location .map > article ul.main-list > li .line-holder.km-24, .location .map > article ul.main-list > li .line-holder.km-23, .location .map > article ul.main-list > li .line-holder.km-22, .location .map > article ul.main-list > li .line-holder.km-21 { max-width: 100%!important;}
 
+
+	.img-align-left, .img-align-right, .img-align-center { width: 100%!important; margin: 15px 0px!important; float: none!important;}
 
 
 }	

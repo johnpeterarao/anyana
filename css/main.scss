@@ -1558,10 +1558,44 @@ footer { padding: 40px 0px 30px; background: #f7f7f9;
 }
 
 
+.small-content { max-width: 1150px; margin: 0 auto; width: 100%; padding: 0px 25px;}
+
+.news-inner { 
+    .sec-2 { padding: 60px 0px;
+        .hldr {
+            h3 { text-align: center; margin-bottom: 30px; color: $black;}
+            p { font-family: $fontmain; font-size: 16px; color: $black; margin-bottom: 20px;}
+            p:last-of-type { margin-bottom: 0px;}
+        }
+
+        .search-results {
+            h3 { text-align: left;}
+            ul { 
+                li { margin-bottom: 15px; padding-left: 20px; position: relative;}
+                li::after { position: absolute; content: ''; height: 2px; width: 10px; background: $black; border-radius: 50%; top: 9px; left: 0; border-radius: 0px;}
+            }
+            
+        }
+    }
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.img-align-left { width: auto; float: left; margin: 10px 20px 10px 0px; max-width: 100%; }
+.img-align-right { width: auto; float: right; margin: 10px 0px 10px 20px; max-width: 100%; }
+.img-align-center { width: auto; display: block; margin: 15px auto; max-width: 100%;}
 
 
 
